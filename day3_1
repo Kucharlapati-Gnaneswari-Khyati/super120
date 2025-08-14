@@ -1,0 +1,8 @@
+#basic_reccurssion
+def rec(n):
+    print(n)
+    n-=1
+    if n>0:
+        rec(n)
+n=13
+rec(n)
