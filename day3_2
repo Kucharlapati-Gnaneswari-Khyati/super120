@@ -1,0 +1,8 @@
+#1 to n in rec.
+def rec1ton(n,m):
+    if m!=n+1:
+        print(m)
+        rec1ton(n,m+1)
+    else:
+        return
+rec1ton(5,1)
